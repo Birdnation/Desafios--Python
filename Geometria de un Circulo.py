@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun May 14 15:27:12 2017
-
-@author: Rodrigo
-"""
+#@author: Rodrigo Dominguez Rut: 17392282-5
+#Desafio 4 Calculo geometria de un circulo de radio R
 import os
 
+#Mensaje de Bienvenida
 print ("#".center(63,"#"))
 print ("#  Programa para calcular Geometria de un circulo de radio R  #")
 print ("#".center(63,"#"))
@@ -67,7 +65,8 @@ while True:
         print ("")
         print ("Hasta luego...")
         break
-        
+    
+    #Cambiar valor del radio
     elif opcionMenu == "0":
         print ("")
         radio = int(input ("Ingrese el valor del radio en (cm): "))
